@@ -1,0 +1,35 @@
+Errors in the find_errors.html file
+
+should be <!DOCTYPE html> not <html> on line 1
+should be <html lang="en"> not <html language="en">
+<html lang="en"> should be after <!DOCTYPE html> not after <head> on line 4
+missing <meta charset="utf-8"> inside <head> tag
+missing </head> after </title>
+missing </h1> on line 9
+missing <p> on line 11
+needs <li> instead of </li> on line 19
+should be </ol> instead of </ul> on line 24
+missing </p> on line 26
+missing alt txt on line 28
+image file should be jpg not png on line 28
+
+
+
+
+
+
+Errors in the find_errors_2.html
+
+<html lang="en"> is missing
+<meta charset="utf-8"> is missing inside of <head> tag
+header should be after the body tag
+wrong placement of the <html> tag
+missing closing </strong?> tag after important on line 8
+missing </p> tag on line 8
+should be <img src> not <img href> on line 10
+missing <alt> text on line 10
+missing opening <h2> on line 12
+missing <p> tag on line 14
+missing proper comment form...needs to be <!--this is a comment> on line 15
+should be </html> on line 16
+
