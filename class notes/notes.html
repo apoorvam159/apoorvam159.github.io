@@ -5,6 +5,10 @@
     <body>
         <p>Hello, World!</p>
         <p>this is a <a href="https://google.com">link</a></p>
+        <p class="basics">this is a paragraph</p>
+        <h1>Welcome to Week 5</h1>
+        <p>CSS is a <span>style sheet language</span></p>
+        <h2>Something about something</h2>
     </body>
 </html>
 
@@ -31,7 +35,7 @@
 <ul class="list">
     <li>List Item 1</li>
     <li>List Item 2</li>
-    <li>List Item 3</li>
+    <li id="item">List Item 3</li>
 </ul>
 
 <ol class="list">
@@ -54,4 +58,28 @@
 
 
 <!--what are divs I don't get it. watch the lecture again-->
+
+<!--starting CSS now!-->
+
+start with the selector then {
+    property and then value
+}
+
+p {
+    color:red;
+    font-size:150%;
+}
+
+css is always read from top to bottom
+    - if you put paragraph as red and then another rule saying it's blue, it will show up as blue
+        - always the second one read
+
+overarching element will style whatever is inside of it
+    - table has all the elements like data and headers
+    - if you say the table is something, everything in it will also be styled
+
+     always make sure to have this in the head of the document
+     - <link rel="stylesheet" href="/css/notes.css">
+
+
 

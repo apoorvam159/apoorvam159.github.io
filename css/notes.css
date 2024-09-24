@@ -1,3 +1,18 @@
 .list{
     color:brown;
 }
+
+p{
+    color: #f59542;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:100%;
+    font-weight: 900;
+}
+
+.basics{
+    font-weight:900;
+}
+
+#item{
+    border-style:dotted
+}
