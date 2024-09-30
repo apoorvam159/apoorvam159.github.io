@@ -70,7 +70,6 @@ body {
   }
   
 html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px;
     background-color: #ccc;
   }
@@ -85,7 +84,7 @@ h2{
 }
 
 test{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /*Card container styles*/
