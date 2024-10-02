@@ -43,8 +43,8 @@ h1 {
 .topimage{
   position: absolute; 
   top: 0;
-  left: 375px;
-  width: 52.05%;
+  left: 450px;
+  width: 47.3%;
   background-image: linear-gradient(to bottom,rgba(0,0,0,0.3), rgba(255, 255, 255, 0));
   border-top: 1mm solid red;
 }
@@ -52,8 +52,8 @@ h1 {
 .bottomimage{
   position: absolute;
   right: 20mm;
-  left: 375px;
-  width: 52.05%;
+  left: 450px;
+  width: 47.3%;
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(0,0,0,0.3));
   border-bottom: 1mm solid red;
 }
