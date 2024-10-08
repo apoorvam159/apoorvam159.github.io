@@ -60,7 +60,7 @@ p,h4{
     border-radius: 8px;
 }
 
-#overlaytwitter{
+#twitter{
     position: absolute;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
     bottom: 200px;
@@ -75,7 +75,7 @@ p,h4{
     border-radius: 8px;
 }
 
-#overlaywatchingQVC{
+#watchingQVC{
     position: absolute;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
     bottom: 160px;
