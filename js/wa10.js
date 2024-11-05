@@ -7,10 +7,10 @@ function randomValueFromArray(array){
     return array[random];
 }
 
-const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
-const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-const insertY = ["the soup kitchen", "Disneyland", "the White House"];
-const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+const storyText = "It was 23 fahrenheit outside, so :insertx: went for a run. When they got to :inserty:, they cried for a long time, then :insertz:. Bob saw the whole thing, and supported their friend while they did so — :insertx: tends to be very emotional and they only weigh 5 pounds.";
+const insertX = ["Simba the Lion", "Princess Jasmine", "Little Bear"];
+const insertY = ["the top of the hill", "the middle of the forest", "the Eiffel Tower"];
+const insertZ = ["exploded into flowers", "started flying away", "got carried away"];
 
 randomize.addEventListener('click', result);
 
@@ -31,8 +31,8 @@ function result() {
         const weight = `${Math.round(300*0.0714286)} stone`;
         const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
 
-        newStory = newStory.replace("300 pounds", weight);
-        newStory = newStory.replace("94 fahrenheit", temperature);
+        newStory = newStory.replace("5 pounds", weight);
+        newStory = newStory.replace("23 fahrenheit", temperature);
     }
 
     story.textContent = newStory;
