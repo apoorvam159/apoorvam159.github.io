@@ -4,12 +4,12 @@ const thumbBar = document.querySelector('.thumb-bar');
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
-const imageFilenames = ['puppy.jpg', 'laughing.jpg', 'sitting.jpg', 'Mimage3.jpeg', 'Mimage6.jpg'];
+const imageFilenames = ['puppy.jpg', 'laughing.jpg', 'sitting.JPG', 'Mimage3.jpeg', 'Mimage6.jpg'];
 
 const altTexts = {
     'puppy.jpg': 'woman holding a puppy',
     'laughing.jpg': 'girl sitting at table laughing',
-    'sitting.jpg': 'puppy sitting down',
+    'sitting.JPG': 'puppy sitting down',
     'Mimage3.jpeg': 'sign board in kerala, india',
     'Mimage6.jpg': 'old coin with malayalam language'
 };
