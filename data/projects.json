@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Go Gallery",
+        "description": "The app I developed is designed to enhance accessibility for individuals with disabilities and for anyone wishing to explore art from the comfort of their home or any location.",
+        "image": "gogallery.png",
+        "link": "gogallery.html"
+    },
+    {
+        "name": "Re-Wrap",
+        "description": "Through market research, our team developed ReWrap, the sustainable solution to gift wrapping waste. ReWrap eliminates the need for paper, scissors, and tape.",
+        "image": "re-wrap.jpeg",
+        "link": "re-wrap.html"
+    },
+
+    {
+        "name": "UX-UI/Marketing",
+        "description": "I was in charge of creating a website and marketing for my class creating products to take to market on Pearl Street in Boulder.",
+        "image": "marketing.JPG",
+        "link": "marketing.html"
+    }
+]
